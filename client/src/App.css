@@ -1,0 +1,82 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #9DD9D2;
+  }
+  
+  .App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Title */
+  .app-title {
+    color: #392F5A;
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styles */
+  .button {
+    background-color: #FF8811;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #F4D06F;
+  }
+  
+  /* Quiz Container */
+  .quiz-container {
+    background-color: #FFF840;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  /* Question Styles */
+  .question {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #392F5A;
+  }
+  
+  /* Options List */
+  .options {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .option {
+    margin: 10px 0;
+  }
+  
+  .option button {
+    width: 100%;
+    background-color: #FF8811;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .option button:hover {
+    background-color: #F4D06F;
+  }
+  
+  /* Score and Result */
+  .score {
+    font-size: 20px;
+    color: #392F5A;
+  }
+  
