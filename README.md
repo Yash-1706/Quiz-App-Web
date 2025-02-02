@@ -35,3 +35,56 @@ The API response is a quiz object that includes metadata (like `title`, `correct
 
 ## Project Structure
 
+``` bash
+Quiz-App-Web/
+├── client/                    // React frontend
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Quiz.js
+│   │   │   ├── Question.js
+│   │   │   └── Result.js
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   └── index.js
+│   └── package.json
+├── server/                    // Express backend proxy (to avoid CORS issues)
+│   ├── server.js
+│   └── package.json
+└── README.md
+```
+
+## Setup Instructions
+
+### Backend (Server)
+
+1. **Navigate to the server directory:**
+
+   ```bash
+   cd server
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Start the server:**
+   ```bash
+   npm start
+   ```
+
+### Frontend (Client)
+
+1. **Open a new terminal and navigate to the client directory:**
+
+   ```bash
+   cd client
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Start the React development server:**
+   ```bash
+   npm start
+   ```
